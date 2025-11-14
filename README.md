@@ -21,16 +21,20 @@ A **Python-based Snake game** created using the **Turtle graphics module**.
 This project applies **object-oriented programming (OOP)** principles and demonstrates game loop logic, collision detection, and class-based architecture.
 
 The player controls a snake that moves around the screen, eats food to grow, and must avoid colliding with the walls or itself.
+The highest score is saved between sessions, and the game can be restarted by clicking anywhere on the screen after Game Over.
 
 ---
 
 ## Features
-- Smooth snake movement with arrow key controls  
-- Random food spawning on the screen  
-- Score increases each time the snake eats food  
-- Snake grows with each meal  
-- Game over detection for wall or tail collisions  
-- Clean and modular code using OOP principles  
+-Smooth snake movement with arrow key controls
+-Random food spawning on the screen
+-Score increases each time the snake eats food
+-Snake grows with each meal
+-Game over detection for wall or tail collisions
+-Displays current score when game over occurs
+-Tracks and displays highest score across sessions
+-Click anywhere to restart the game
+-Clean and modular code using OOP principles 
 
 ---
 
@@ -63,6 +67,7 @@ python main.py
 -Game loop and frame updates
 -Collision detection using coordinates
 -Working with Python’s Turtle graphics module
+-File I/O for saving and loading high score
 
 
 ## Author:
